@@ -1,0 +1,32 @@
+@import url(footer.css);
+@import url(header.css);
+@import url(main.css);
+
+:root {
+    --cor-fundo-principal: #FFFFFF;
+    --cor-rodape: #F9FAFB;
+    --cor-rodape-direitos-reservados: #98A2B3;
+    --cor-texto: #667085;
+    --cor-titulo-empresa: #3A404E;
+    --cor-titulos: #101828;
+    --cor-vermelha-destaque: #8E2424;
+    --fonte: 'Inter', sans-serif;
+    --fonte-alta: 600;
+    --fonte-media: 500;
+    --fonte-pequena: 400;
+}
+
+body{
+    font-family: var(--fonte);
+}
+
+main{
+    padding: 1rem 1rem 0 1rem;
+}
+
+@media screen and (min-width: 1020px){
+    main{
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
